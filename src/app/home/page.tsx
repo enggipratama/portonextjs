@@ -51,7 +51,7 @@ const Home = () => {
               </div>
               <div className="lg:flex-col lg:items-center">
                 <h2 className="text-1xl lg:text-1xl text-center lg:text-center font-bold mb-5">I Learn Through <span className="text-blue-400">Experiences</span> 😎❤️</h2>
-                <p className="text-justify lg:text-justify">I’m Enggi Pratama, from Indonesia. I’ve spent my time to take any opportunity as well as developing my experience and skills to things like Graphic Designing, Programming, and many others. <br /> <br />
+                <p className="text-justify lg:text-justify">I&apos;m Enggi Pratama, from Indonesia. I&apos;ve spent my time to take any opportunity as well as developing my experience and skills to things like Graphic Designing, Programming, and many others. <br /> <br />
                 But one thing I always stick with everything is, I always do every works as my passion, and that&apos;s what makes me happy also giving myself a chance to deliver best works that i can do.</p>
               </div>
             </div>
