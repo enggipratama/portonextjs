@@ -42,7 +42,7 @@ const Skill = () => {
         <span className="indicator-item badge badge-success">Learning...</span>
           <figure className="px-10 pt-10">
             <Image
-              src="/iconskill/Javascript.png"
+              src="/iconskill/JavaScript.png"
               width={500}
               height={300}
               alt="Javascript"
