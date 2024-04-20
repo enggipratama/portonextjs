@@ -22,7 +22,7 @@ const Home = () => {
               </figure>
               </div>
               <div className="lg:flex-col lg:items-center">
-                <h1 className="text-1xl lg:text-3xl text-center lg:text-left font-bold">Hi Welcome, I'm Enggi Pratama 🙌</h1>
+                <h1 className="text-1xl lg:text-3xl text-center lg:text-left font-bold">Hi Welcome, I&apos;m Enggi Pratama 🙌</h1>
                 <p className="text-center lg:text-left py-6">Gak tau mau ngisi apa. 😒  </p>
                 <SosialMedia />
               </div>
