@@ -2,6 +2,7 @@ import ViewButton from "../components/home/buttonviewnav";
 import SosialMedia from "../components/home/buttonsosial";
 import Skill from "../components/home/skill";
 import Footer from "../components/home/footer";
+import Image from 'next/image';
 const Home = () => {
   return (
     <>
@@ -11,8 +12,10 @@ const Home = () => {
             <div className="hero-content grid grid-cols-1 lg:grid-cols-2 items-center">
               <div className="flex justify-center items-center">
               <figure className="mt-5 mb-5">
-              <img
+              <Image
                 src="/profile/profile.jpg"
+                width={500}
+                height={300}
                 className="rounded-lg shadow-2xl h-60 w-40 object-cover"
                 alt="Enggi Pratama"
               />

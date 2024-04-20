@@ -1,5 +1,5 @@
 "use client";
-
+import Image from 'next/image';
 const Skill = () => {
   return (
     <div className="flex flex-col w-full px-10 ">
@@ -7,8 +7,10 @@ const Skill = () => {
         <div className="card bg-base-200 shadow-xl mt-5">
           <span className="indicator-item badge badge-success">Learning...</span>
           <figure className="px-10 pt-10">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg"
+          <Image
+            src="/iconskill/laravel.png"
+            width={500}
+            height={300}
             alt="Laravel"
             className="rounded-xl h-20 w-20 object-cover"
           />
@@ -22,8 +24,10 @@ const Skill = () => {
         <div className="card bg-base-200 shadow-xl mt-5">
         <span className="indicator-item badge badge-success">Learning...</span>
           <figure className="px-10 pt-10">
-            <img
-              src="https://i.pinimg.com/originals/2d/3a/7d/2d3a7d7d1ad7adeded994de246f60c43.png"
+            <Image
+              src="/iconskill/PHP.png"
+              width={500}
+              height={300}
               alt="PHP"
               className="rounded-xl h-20 w-20 object-cover"
             />
@@ -37,8 +41,10 @@ const Skill = () => {
         <div className="card bg-base-200 shadow-xl mt-5">
         <span className="indicator-item badge badge-success">Learning...</span>
           <figure className="px-10 pt-10">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+            <Image
+              src="/iconskill/Javascript.png"
+              width={500}
+              height={300}
               alt="Javascript"
               className="rounded-xl h-20 w-20 object-cover"
             />
@@ -52,8 +58,10 @@ const Skill = () => {
         <div className="card bg-base-200 shadow-xl mt-5">
         <span className="indicator-item badge badge-success">Learning...</span>
           <figure className="px-10 pt-10">
-            <img
-              src="https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png"
+            <Image
+              src="/iconskill/Nextjs.png"
+              width={500}
+              height={300}
               alt="Next.js"
               className="rounded-xl h-20 w-20 object-cover"
             />
@@ -67,8 +75,10 @@ const Skill = () => {
         <div className="card bg-base-200 shadow-xl mt-5">
         <span className="indicator-item badge badge-success">Learning...</span>
           <figure className="px-10 pt-10">
-            <img
-              src="https://i.pinimg.com/originals/41/95/cf/4195cf989fac0128a89669f40a1e3496.png"
+            <Image
+              src="/iconskill/bootstrap.png"
+              width={500}
+              height={300}
               alt="Bootstrap"
               className="rounded-xl h-20 w-20 object-cover"
             />
@@ -82,12 +92,14 @@ const Skill = () => {
         <div className="card bg-base-200 shadow-xl mt-5">
         <span className="indicator-item badge badge-success">Learning...</span>
           <figure className="px-10 pt-10">
-            <img
-              src="https://www.svgrepo.com/show/374118/tailwind.svg"
+            <Image
+              src="/iconskill/tailwind.png"
+              width={500}
+              height={300}
               alt="Tailwind"
               className="rounded-xl h-20 w-20 object-cover"
             />
-          </figure>
+          </figure> 
           <div className="card-body items-center text-center max-w-full">
             <h2 className="text-center lg:text-center">Tailwindcss</h2>
             <progress className="progress progress-primary w-16"></progress>
