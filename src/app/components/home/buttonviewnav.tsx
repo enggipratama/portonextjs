@@ -10,7 +10,6 @@ const ViewButton = () => {
             <div>
                 <Link href="/" className="btn join-item">Home</Link>
                 <Link href="/project" className="btn join-item">Project</Link>
-                <Link href="/bot" className="btn join-item">Chat with bot</Link>
             </div>
         </div>
     </div>
