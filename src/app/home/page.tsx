@@ -1,9 +1,9 @@
 import ViewButton from "../components/home/buttonviewnav";
 import SosialMedia from "../components/home/buttonsosial";
 import Skill from "../components/home/skill";
-import Footer from "../components/home/footer";
 import Image from 'next/image';
-const Home = () => {
+
+export default function Home () {
   return (
     <>
       <ViewButton />
@@ -58,9 +58,6 @@ const Home = () => {
           </div>
         <Skill />
         </div>
-        <Footer />
     </>
   );
 };
-
-export default Home
