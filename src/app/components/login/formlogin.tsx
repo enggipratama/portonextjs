@@ -2,7 +2,7 @@
 
 const Login = () => {
   return (
-    <div className="hero min-h-screen flex  items-center justify-center">
+    <div className="hero min-h-screen flex items-center justify-center px-5">
       <div className="card lg:card-side bg-base-200 shadow-xl w-full max-w-2xl">
         <figure className="flex justify-center lg:justify-start p-4 lg:p-0">
           <img
