@@ -7,7 +7,7 @@ const Login = () => {
       <div className="card lg:card-side bg-base-200 shadow-xl w-full max-w-2xl">
         <figure className="flex justify-center lg:justify-start p-4 lg:p-0">
           <img
-            className="h-48 lg:h-72 w-full lg:w-auto object-cover"
+            className="h-48 lg:h-72 w-full lg:w-auto object-cover rounded-md"
             src="/login/login.gif"
             alt="Login"
           />
@@ -40,13 +40,13 @@ const Login = () => {
           <div className="card-actions justify-center lg:justify-end mt-3">
             <a
               href="/"
-              className="font-bold text-secondary w-full lg:w-auto px-4 py-2 border border-secondary rounded-md hover:bg-secondary hover:text-white transition-all"
+              className="font-bold text-secondary lg:w-auto px-4 py-2 border border-secondary rounded-md hover:bg-secondary hover:text-white transition-all"
             >
               Back
             </a>
             <a
               href="URL_TUJUAN"
-              className="font-bold text-primary w-full lg:w-auto px-4 py-2 border border-primary rounded-md hover:bg-primary hover:text-white transition-all"
+              className="font-bold text-primary lg:w-auto px-4 py-2 border border-primary rounded-md hover:bg-primary hover:text-white transition-all"
             >
               Login
             </a>
